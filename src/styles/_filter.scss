@@ -1,0 +1,23 @@
+.filter {
+    // border: 8px solid honeydew;
+    background-color: #573ba3;
+    padding: 15px;
+    border-radius: 15px;
+    color: snow;
+    .in {
+        border-bottom: 2px solid snow;
+        color: snow;
+        &:focus {
+            outline: snow solid 0px;
+            color: snow;
+            background-color: #8269c9;
+        }
+    }
+    span {
+        padding: 20px;
+    }
+}
+
+input::placeholder {
+    color: snow;
+}

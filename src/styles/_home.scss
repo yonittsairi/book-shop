@@ -1,0 +1,29 @@
+.hero {
+    height: 90vh;
+    background-color: #573ba3;
+    margin: 0;
+    text-align: center;
+    color: honeydew;
+    justify-content: center;
+    background-image: (
+        url("https://bookshop.org/assets/hero_background_desktop-b7464a4e06ce2ff018a712411f37de92227f6d836ceacc043617c9df740192e9.jpg")
+    );
+    // background-position: h;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    // justify-content: center;
+    h1 {
+        margin-top: 100px;
+    }
+    img {
+        width: 70%;
+
+        // max-height: 30%;
+        // display: block;
+        margin: 10px;
+    }
+    .gall {
+        margin: auto;
+    }
+}
